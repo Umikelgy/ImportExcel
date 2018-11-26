@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newWebExcel">
+    <output-path>$PROJECT_DIR$/out/artifacts/newWebExcel</output-path>
+    <root id="archive" name="newWebExcel.war">
+      <element id="artifact" artifact-name="ImportExcelWeb:war exploded2" />
+      <element id="dir-copy" path="$PROJECT_DIR$/ImportExcelWeb/web" />
+    </root>
+  </artifact>
+</component>

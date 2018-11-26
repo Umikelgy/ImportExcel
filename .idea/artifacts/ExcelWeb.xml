@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ExcelWeb">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExcelWeb</output-path>
+    <root id="archive" name="unnamed.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/ImportExcelWeb" />
+      <element id="module-output" name="ImportExcelWeb" />
+    </root>
+  </artifact>
+</component>

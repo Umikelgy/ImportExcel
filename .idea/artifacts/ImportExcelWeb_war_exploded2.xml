@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ImportExcelWeb:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/ImportExcelWeb_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ImportExcelWeb" />
+        </element>
+      </element>
+      <element id="library" level="application_server_libraries" name="Tomcat 8.0.47" />
+      <element id="javaee-facet-resources" facet="ImportExcelWeb/web/Web" />
+    </root>
+  </artifact>
+</component>

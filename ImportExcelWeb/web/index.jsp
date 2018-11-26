@@ -12,5 +12,6 @@
   </head>
   <body>
   $END$
+  <a href="WEB-INF/jsp/test.jsp">点击</a>
   </body>
 </html>

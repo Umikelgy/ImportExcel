@@ -2,7 +2,10 @@ package importExcelS.api;
 
 import importExcelS.entity.Excel_Messages;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 /*
  *@description:
@@ -12,6 +15,7 @@ import java.util.List;
  */
 public interface ImportService {
     void OpenFile(String path);
-    List<Excel_Messages> getExcels();
+    Map<Integer,List<Object>> getExcels(File file)throws IOException;
+    void CreateTable(List<Object> objects);
 
 }
